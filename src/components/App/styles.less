@@ -1,1 +1,39 @@
+.app {
+  &__header {
+    background-color: slategray;
+    display: flex;
+  }
 
+  &__header-title {
+    display: flex;
+    justify-content: center;
+    width: 16rem;
+    font-size: 2.4rem;
+  }
+
+  &__nav-wrapper {
+    display: flex;
+    justify-content: center;
+    width: calc(100vw - 32rem)
+  }
+
+  &__header-nav {
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav-link {
+    font-size: 1.6rem;
+    > a {
+    }
+  }
+
+  &__bean-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16rem;
+  }
+}
