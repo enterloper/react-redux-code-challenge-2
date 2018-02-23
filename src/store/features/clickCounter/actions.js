@@ -6,18 +6,15 @@ function incrementBy1() {
   }
 }
 
-
-function decrementBy1(number) {
+function decrementBy1() {
   return {
     type: types.DECREMENT_NUMBER,
-    number
   }
 }
 
-function resetNumberToZero(number) {
+function resetNumberToZero() {
   return {
     type: types.RESET_TO_ZERO,
-    number
   }
 }
 

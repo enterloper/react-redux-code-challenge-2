@@ -1,6 +1,6 @@
 .app {
   &__header {
-    background-color: slategray;
+    background-color: #7c7c7c;
     display: flex;
   }
 
@@ -26,14 +26,29 @@
 
   &__nav-link {
     font-size: 1.6rem;
-    > a {
-    }
   }
+}
 
-  &__bean-counter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 16rem;
+/* MEDIA QUERY */
+
+@media screen and (max-width: 768px) {
+  .app {
+    &__header {
+      flex-direction: column;
+      padding: .8rem;
+    }
+
+    &__header-title {
+      width: 100%;
+      font-size: 1.6rem;
+    }
+
+    &__nav-wrapper {
+      width: 100%;
+    }
+
+    &__nav-link {
+      font-size: 1.2rem;
+    }
   }
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import HomePage from 'components/HomePage';
+import HomePage from 'containers/HomePage';
 import DetailsPage from 'components/DetailsPage';
 import NumberPage from 'containers/NumberPage';
 import './styles.less';
@@ -26,9 +26,6 @@ class App extends Component {
                   <Link to="/number">Number</Link>
                 </span>
               </div>
-            </div>
-            <div className="app__bean-counter">
-              up down
             </div>
           </div>
           <Route exact path="/" component={HomePage} />

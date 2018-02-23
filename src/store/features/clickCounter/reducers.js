@@ -7,13 +7,17 @@ const initialState = {
 export default function(state = initialState, action) {
   switch(action.type) {
     case types.INCREMENT_NUMBER: {
+      const newNumber = state.number + 1;
       return {
         ...state,
+        number: newNumber,
       };
     }
     case types.DECREMENT_NUMBER: {
+      const newNumber = state.number - 1;
       return {
         ...state,
+        number: newNumber,
       };
     }
     case types.RESET_TO_ZERO: {
