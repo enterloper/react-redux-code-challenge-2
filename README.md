@@ -1,8 +1,5 @@
 # React/Redux Code Challenge
 This challenge was created to test your ability to code in a React environment. 
-Furthermore, this challenge will allow our team to review your ability to adapt to patterns in 
-architecture and coding style. In addition, this challenge will assess decision making skills in 
-regard to managing state.
 
 ## Table of Contents
 - [Getting Started](#getting-started)
@@ -44,6 +41,7 @@ You can choose to keep it or remove it.
 ![alt text](./public/DetailsPage.png "Details Page preview")
 - Upon completion of the above objectives, add some notes to `Notes.md` for those reviewing your code that you might feel is beneficial to us.
     - These can include thoughts about decisions you made in design, dependency change, state/store management, etc.
+    
 ## Extra Objectives
 - The styling for this mockup is fairly bland, if you feel inspired, make it your own by enriching the design.
 - Want to show off your understanding of asynchronous behavior in React/Javascript? 
