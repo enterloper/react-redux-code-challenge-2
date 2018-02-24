@@ -10,7 +10,7 @@ regard to managing state.
 - [Objectives](#challenge-objectives)
 - [Extras](#extra-objectives)
 
-### Getting Started
+## Getting Started
 - `yarn` to get your dependencies (you'll have to have yarn installed).
 - `yarn start` to fire up your webpack environment for viewing in your browser of choice.
 
