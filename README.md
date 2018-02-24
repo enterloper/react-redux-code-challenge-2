@@ -8,6 +8,7 @@ regard to managing state.
 - [Getting Started](#getting-started)
 - [Motivations](#challenge-motivations)
 - [Objectives](#challenge-objectives)
+- [Extras](#extra-objectives)
 
 ### Getting Started
 - `yarn` to get your dependencies (you'll have to have yarn installed).
