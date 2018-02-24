@@ -17,3 +17,6 @@ regard to managing state.
 - Use good judgement in deciding types of components (container, presentational, HOC)
 
 ## Challenge Objectives
+- Create the widgets you see in the image below
+![alt text](./public/HomePage.png "Home Page preview")
+
