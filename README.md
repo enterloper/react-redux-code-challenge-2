@@ -4,6 +4,10 @@ Furthermore, this challenge will allow our team to review your ability to adapt 
 architecture and coding style. In addition, this challenge will assess decision making skills in 
 regard to managing state.
 
+### Getting Started
+- `yarn` to get your dependencies (you'll have to have yarn installed).
+- `yarn start` to fire up your webpack environment for viewing in your browser of choice.
+
 ## Table of Contents
 - [Motivations](#challenge-motivations)
 - [Objectives](#challenge-objectives)
