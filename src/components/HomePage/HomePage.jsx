@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './styles.less';
+import AddCompanies from 'containers/AddCompanies';
+import ListCompanies from 'containers/ListCompanies';
+import AddEmployee from '../AddEmployee';
 
 const propTypes = {
 	increment: PropTypes.func.isRequired,
@@ -12,7 +15,6 @@ class HomePage extends Component {
 	render() {
 		const {	increment, decrement, resetNumberToZero } = this.props;
 		return (
-			<React.Fragment>
 				<div className="home__wrapper">
 					<div className="home__abacus">
 						<button	onClick={increment}>
@@ -25,11 +27,13 @@ class HomePage extends Component {
 							Reset Number
 						</button>
 					</div>
-					<div>
-						Code for Homepage goes here!
+					<div className="container">
+						<ListCompanies />
+						<AddCompanies />
+						<br />
+						<AddEmployee />
 					</div>
 				</div>
-			</React.Fragment>
 		);
 	}
 }
