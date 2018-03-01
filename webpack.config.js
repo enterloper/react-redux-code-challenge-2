@@ -19,6 +19,11 @@ module.exports = {
       components: path.resolve(__dirname, 'src/components'),
     }
   },
+  devServer: {
+    historyApiFallback: true,
+    compress: true,
+    port: 8080
+  },
   devtool: 'eval-source-map',
   module: {
     loaders: [
