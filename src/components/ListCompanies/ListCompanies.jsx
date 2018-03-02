@@ -7,7 +7,7 @@ const propTypes = {
     companies: PropTypes.arrayOf(PropTypes.shape({
         id: PropTypes.string,
         name: PropTypes.string,
-        number: PropTypes.string,
+        phone: PropTypes.string,
         revenue: PropTypes.string,
     })),
 };
@@ -20,10 +20,10 @@ class ListCompanies extends Component {
             <React.Fragment>
                 <div>
                 {this.props.companies.map(company => (
-                    <div key={company.id}>
+                    <div key={company.phone}>
 	                      <span>Name:</span><span>{company.name}</span>
                         <br />
-	                      <span>Number:</span><span>{company.number}</span>
+	                      <span>Number:</span><span>{company.phone}</span>
                         <br />
 	                      <span>Revenue:</span><span>{company.revenue}</span>
                     </div>)
